@@ -30,10 +30,10 @@
         <section class="main-header">
             <h2 class="main-header-heading">Web Development project</h2>
             <p class="main-header-text">Very suitable to support all web development projects</p>
-            <button class="btn btn_white">Our services</button>
-            <button class="btn btn_green">Hire us now</button>
+            <button class="main_btn" onclick="window.location.href='#section_service';">Our services</button>
+            <button class="main_btn" onclick="window.location.href='#section_contacts';">Hire us now</button>
             <button class="btn-arrow">
-                <a href="#" class="scroll-to-main">
+                <a href="#about-us" class="scroll-to-main">
                     <i class="fas fa-chevron-down fa-3x"></i>
                 </a>
             </button>
@@ -44,7 +44,7 @@ form[#]>a[https://google.com]>span.class1.class2#abc{Blabla}*2^h1[data-type="tex
 -->
 
     <main class="main">
-        <section class="about-us">
+        <section class="about-us" id="about-us">
             <h3 class="about-us_header">About Us</h3>
             <p class="about-us_text">Lorem ipsum dolor sit amet, consectetur adipisicing elitt, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
             <div class="about_us-container">
@@ -71,7 +71,7 @@ form[#]>a[https://google.com]>span.class1.class2#abc{Blabla}*2^h1[data-type="tex
                 </a>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="section_service">
             <h3 class="services_header">Our Services</h3>
             <p class="services_text">Lorem ipsum dolor sit amet, consectetur adipisicing elitt, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
             <div class="services_conteiner_floor1">
@@ -85,7 +85,7 @@ form[#]>a[https://google.com]>span.class1.class2#abc{Blabla}*2^h1[data-type="tex
                     <div class="services_sub_icon"></div>
                     <h4 class="services_sub_header">Portfolio</h4>
                     <p class="services_sub_text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blan- ditiis praesentium voluptatum iti atque corrupti quos.</p>
-                    <button class="services_sub_btn">Read more</button>
+                    <button class="services_sub_btn" onclick="window.location.href='#section_works';">Read more</button>
                 </div>
                 <div class="services_sub">
                     <div class="services_sub_icon"></div>
@@ -115,7 +115,7 @@ form[#]>a[https://google.com]>span.class1.class2#abc{Blabla}*2^h1[data-type="tex
                 </div>
             </div>
         </section>
-        <section class="works">
+        <section class="works" id="section_works">
             <h3 class="section_works_header">Latest Works</h3>
             <p class="section_works_head_text">Lorem ipsum dolor sit amet, consectetur adipisicing elitt, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
             <div class="section_works_btns_container">
@@ -166,8 +166,108 @@ form[#]>a[https://google.com]>span.class1.class2#abc{Blabla}*2^h1[data-type="tex
             </div>
             <button class="section_works_btn_all">View All</button>
         </section>
-        <section class="price"></section>
-        <section class="team"></section>
+        <section class="section_price">
+            <div class="section_price_header">
+                <h3 class="section_price_header_heading">Pricing Plan</h3>
+                <p class="section_price_header_text">Lorem ipsum dolor sit amet, consectetur adipisicing elitt, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            </div>
+            <div class="section_price_main">
+                <div class="section_price_order">
+                    <h4 class="section_price_order_header">Free Trail</h4>
+                    <p class="section_price_value">
+                        <span class="section_price_comment1">$</span>00<span class="section_price_comment2"> per month</span>
+                    </p>
+                    <div class="section_price_details">
+                        <p class="section_price_details_text">30 Free Trail</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">5 Free Projects</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">PHP 5 Enabled</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">24/7 Supports</p>
+                        <hr class="section_price_hr">
+                    </div>
+                    <button class="section_price_btn">Order Now</button>
+                </div>
+                <div class="section_price_order">
+                    <h4 class="section_price_order_header">Basic</h4>
+                    <p class="section_price_value">
+                        <span class="section_price_comment1">$</span>50<span class="section_price_comment2"> per month</span>
+                    </p>
+                    <div class="section_price_details">
+                        <p class="section_price_details_text">30 Free Trail</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">5 Free Projects</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">PHP 5 Enabled</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">24/7 Supports</p>
+                        <hr class="section_price_hr">
+                    </div>
+                    <button class="section_price_btn">Order Now</button>
+                </div>
+                <div class="section_price_order">
+                    <h4 class="section_price_order_header">Ultimates</h4>
+                    <p class="section_price_value">
+                        <span class="section_price_comment1">$</span>99<span class="section_price_comment2"> per month</span>
+                    </p>
+                    <div class="section_price_details">
+                        <p class="section_price_details_text">30 Free Trail</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">5 Free Projects</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">PHP 5 Enabled</p>
+                        <hr class="section_price_hr">
+                        <p class="section_price_details_text">24/7 Supports</p>
+                        <hr class="section_price_hr">
+                    </div>
+                    <button class="section_price_btn">Order Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="team">
+            <div class="team_header">
+                <h3 class="team_header_heading">Our Team Member</h3>
+                <p class="team_header_text">Lorem ipsum dolor sit amet, consectetur adipisicing elitt, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            </div>
+            <div class="team_main">
+                <div class="team_member">
+                    <div class="team_member_img">
+                        <!--                        <img src="./imgs/Team_Member-1.png" alt="">-->
+                    </div>
+                    <h4 class="team_member_name">John Doe</h4>
+                    <p class="team_member_pos">General Manager</p>
+                    <div class="team_member_social">
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                    </div>
+                </div>
+                <div class="team_member">
+                    <div class="team_member_img"></div>
+                    <h4 class="team_member_name">Alexa Biru</h4>
+                    <p class="team_member_pos">Office Director</p>
+                    <div class="team_member_social">
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                    </div>
+                </div>
+                <div class="team_member">
+                    <div class="team_member_img"></div>
+                    <h4 class="team_member_name">Ronobir Singh</h4>
+                    <p class="team_member_pos">Admin</p>
+                    <div class="team_member_social">
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                        <div class="team_member_social_ico"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="blog"></section>
         <section class="contact-us"></section>
     </main>
