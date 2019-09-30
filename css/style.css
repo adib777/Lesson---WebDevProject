@@ -38,6 +38,10 @@ ul {
     padding: 1.5% 0% 0% 4%;
 }
 
+.logo-header_href {
+    text-decoration-line: none;
+}
+
 .nav-list-header {
     text-align: right;
     float: right;
@@ -51,6 +55,10 @@ ul {
     font-weight: 600;
     padding: 3.7% 0% 0% 5.5%;
     list-style-type: none;
+}
+
+.nav-list-item-href {
+    text-decoration-line: none;
 }
 
 /*HEADER NAV END*/
@@ -409,18 +417,23 @@ ul {
 }
 
 .section_works_descript_header {
+    color: transparent;
     font-size: 20px;
     font-weight: 600;
 }
 
 .section_works_descript_text {
+    color: transparent;
     font-size: 15px;
     font-weight: 600;
 }
 
 .section_works_descript:hover {
-    color: #fff;
     background-color: #0007;
+}
+
+.section_works_descript:hover * {
+    color: #fff;
 }
 
 .section_works_btn_all {
@@ -499,6 +512,7 @@ ul {
 }
 
 .section_price_value {
+    color: #fff;
     font-size: 41px;
     font-weight: 400;
     color: #fff;
@@ -506,12 +520,14 @@ ul {
 }
 
 .section_price_comment1 {
+    color: #fff;
     font-size: 20px;
     font-weight: 400;
     vertical-align: 60%;
 }
 
 .section_price_comment2 {
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     vertical-align: 10%;
