@@ -1,5 +1,6 @@
 * {
     text-align: center;
+    color: #212121;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -110,11 +111,19 @@ ul {
 
 .btn-arrow {
     display: block;
-    margin: 30px auto;
+    color: #fff;
     background-color: transparent;
     border: none;
-    color: #fff;
     cursor: pointer;
+    margin: 30px auto;
+}
+
+.fa-chevron-down {
+    color: #fff;
+}
+
+.fa-chevron-down:hover {
+    color: aqua;
 }
 
 /* поведение ПОСЛЕ нажатия */
@@ -190,14 +199,14 @@ ul {
 }
 
 .about-us_sub_header {
-    color: #000;
+    color: #212121;
     text-align: center;
     font-size: 17px;
     font-weight: 600;
 }
 
 .about-us_sub_text {
-    color: #000;
+    color: #212121;
     font-size: 12px;
     font-weight: 400;
     padding: 4% 14% 0;
@@ -337,7 +346,7 @@ ul {
 }
 
 .section_works_btn {
-    color: #000;
+    color: #212121;
     background-color: #fff;
     border: 2px solid #00897b;
     text-transform: uppercase;
@@ -826,9 +835,136 @@ ul {
     border: 1px solid #00897b;
 }
 
-clip-path
+/*BLOG SECTION END*/
 
-/*FOOTER*/
+/*********************************************/
+
+/*CONTACT US SECTION START*/
+
+.contact-us {
+    width: 100%;
+    background: url(../imgs/contact-us_bg.png) no-repeat center top / 100%;
+}
+
+.contact-us_header {
+    width: 100%;
+    padding: 8% 0 0;
+}
+
+.contact-us_header_heading {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.contact-us_header_text {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2% 0 0 0;
+    margin: 0 auto;
+}
+
+.contact-us_adress {
+    width: 100%;
+    padding: 4% 13% 0;
+}
+
+.contact-us_adress_details {
+    display: inline-block;
+    width: 31%;
+}
+
+.contact-us_adress_ico {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 7%;
+}
+
+.contact-us_adress_details:nth-child(1) .contact-us_adress_ico {
+    background: url(../imgs/placeholder.png) no-repeat center center / 30%;
+}
+
+.contact-us_adress_details:nth-child(2) .contact-us_adress_ico {
+    background: url(../imgs/phone-call.png) no-repeat center center / 30%;
+}
+
+.contact-us_adress_details:nth-child(3) .contact-us_adress_ico {
+    background: url(../imgs/mail.png) no-repeat center center / 30%;
+}
+
+.contact-us_adress_text {
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.contact-us_form {
+    width: 100%;
+    padding: 4% 13% 0;
+
+}
+
+.contact-us_form * {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.contact-us_form_sender * {
+    width: 100%;
+    background-color: #fff;
+}
+
+.contact-us_form_sender_name {
+    width: 49%;
+    height: 50px;
+    padding: 1% 2% 1%;
+}
+
+.contact-us_form_sender_email {
+    float: right;
+    width: 48.6%;
+    height: 50px;
+    padding: 1% 2% 1%;
+}
+
+.contact-us_form_sender_comment {
+    width: 100%;
+    height: 200px;
+    padding: 1% 2% 1%;
+    margin-top: 3%;
+}
+
+.contact-us_form_btn {
+    width: 22%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+    padding: 2% 2% 2%;
+    margin: 3% 0 10% 78%;
+}
+
+.contact-us_form_btn:hover {
+    background-color: #ccc;
+}
+
+/*CONTACT-US SECTION END*/
+
+/**********************************************/
+
+/*FOOTER SECTION START*/
+
 .footer {
     clear: both;
     display: block;
@@ -836,3 +972,13 @@ clip-path
     text-align: center;
     font-weight: 700;
 }
+
+.license {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/*FOOTER SECTION END*/
+
+/*SITE END*/
